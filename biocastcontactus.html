@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BioCast</title>
+  <link rel="stylesheet" type="text/css" href="biocast.css">
+  <link rel="shortcut icon" type="image/png" href="BioCastDNAWhite.png">
+</head>
+<body>
+  <header class="header">
+    <div class="headerbutton">
+      <button class="headerbutton2 expand-button2"><a class="abutton" href="biocasthome.html"><strong>HOME</strong></a></button>
+      <button class="headerbutton2 expand-button2"><a class="abutton" href="biocastaboutus.html"><strong>WHO ARE WE?</strong></a></button>
+      <button class="headerbutton2 expand-button2"><a class="abutton" href="biocastblog.html"><strong>BLOG POSTS</strong></a></button>
+      <button class="headerbutton2 expand-button2"><a class="abutton" href="https://rss.com/podcasts/biocastpodcast/" target="_blank" rel="noopener noreferrer"><strong>LISTEN HERE</strong></a></button>
+      <button class="headerbutton2 expand-button2"><a class="abutton" href="biocastcontactus.html"><strong>CONTACT US</strong></a></button>
+    </div>
+  </header>
+  <main>
+    <div class="container3">
+      <div class="form-container">
+        <h2>CONTACT US</h2>
+        <p>Have any juicy ideas? Questions/concerns? Just fill this form out, and we'll get back to you as soon as possible!</p>
+        <form action="contact.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="button2 expand-button2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer">
+    <p>&copy; 2023 BioCast</p>
+    <p>Powered by Google</p>
+  </div>
+</footer>
+</body>
+</html>

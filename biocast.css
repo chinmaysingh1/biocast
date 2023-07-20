@@ -1,0 +1,356 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+  }
+
+  .header {
+    padding: 50px;
+    background-color: black;
+  }
+
+
+  .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .button {
+    background-color: inherit;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .button2 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 32px;
+    background-color: black;
+    color: white;
+    border-radius: 36px;
+    border: 2px solid white;
+    font-size: large;
+    cursor: pointer;
+  }
+
+  .homebutton { 
+    text-align: left;
+  }
+
+  .homebutton img {
+    max-width: 10%;
+  }
+
+  .headerbutton {
+    text-align: right;
+    background-color: black;
+    padding: 10px;
+  }
+
+  .headerbutton2 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+  }
+
+  .abutton2 {
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .abutton {
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .abutton::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background: linear-gradient(white, white);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease-in-out;
+  }
+  
+  /* On hover, animate the underline from left to right */
+  .abutton:hover::before {
+    background-size: 100% 100%;
+  }
+
+  .expand-button {
+    transition: all 0.3s;
+  }
+
+  .expand-button:hover {
+    transform: scale(1.05);
+    background-color: white;
+  }
+
+  .expand-button:hover strong {
+    color: black;
+  }
+
+  .expand-button2 {
+    transition: all 0.3s;
+  }
+
+  .expand-button2:hover {
+    transform: scale(1.05);
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    border-radius: 36px;
+  }
+
+  .container2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    cursor: pointer;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .image {
+    justify-content: center;
+    max-width: 100%;
+    display: flex;
+    margin-left: 5%;
+  }
+
+  .image img {
+    width: 4000px;
+  }
+
+  .text {
+    font-size: 40px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px; /* Add some space between image and text */
+  }
+  
+  .text2 {
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    margin-right: 10%;
+    margin-top: 20px; /* Add some space between text and button */
+  }
+
+  .text3 {
+    color: white;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+  }
+
+  .text4 {
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    max-width: 40%;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+    color: white;
+  }
+  
+  .member {
+    text-align: center;
+    width: 30%;
+    line-height: 2;
+    padding: 3em;
+    background-color: #222;
+    border-radius: 36px;
+  }
+  
+  .member img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 36px;
+    margin-bottom: 50px;
+  }
+
+  .blog-preview {
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 12px;
+    display: flex;
+  }
+  
+  .blog-preview img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .blog-info {
+    flex: 1;
+  }
+  
+  .blog-title a {
+    font-size: 24px;
+    margin: 5px 0;
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .blog-date {
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    margin: 5px 0;
+  }
+  
+  .blog-excerpt {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 5px 0;
+    text-align: left;
+    color: white; /* Change the preview text color to white */
+  }
+
+
+  .blog {
+    max-width: 100%;
+    margin-left: 196px;
+    margin-right: 196px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog img {
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+  }
+
+  .blog-post {
+    color: white;
+    line-height: 2;
+  }
+
+  .blog-post p {
+    text-align: left;
+  }
+
+  .center-image {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    margin-bottom: 20px; /* Add margin to separate image from text */
+  }
+
+  .published-date {
+    font-size: small;
+  }
+
+  .figures {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    margin: 20px;
+  }
+
+  .figures img {
+    width: auto;
+    height: auto;
+  }
+
+  .sign-off {
+    line-height: 1;
+  }
+
+  .links {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  }
+
+  .form-container {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #000;
+    color: white;
+  }
+  
+  button[type="submit"] {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border: 2px solid white;
+    border-radius: 36px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+  }
+
+  .form-container h2, p {
+    text-align: center;
+    }
