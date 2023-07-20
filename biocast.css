@@ -354,3 +354,10 @@ body {
   .form-container h2, p {
     text-align: center;
     }
+
+  .success {
+    color: white;
+    text-align: left;
+    margin-bottom: 20%;
+    margin-left: 10%;
+  }
