@@ -9,8 +9,8 @@
   <header class="header">
     <div class="headerbutton">
       <button class="headerbutton2 expand-button2"><a class="abutton" href="index.html"><strong>HOME</strong></a></button>
-      <button class="headerbutton2 expand-button2"><a class="abutton" href="biocastaboutus.html"><strong>WHO ARE WE?</strong></a></button>
-      <button class="headerbutton2 expand-button2"><a class="abutton" href="biocastblog.html"><strong>BLOG POSTS</strong></a></button>
+      <button class="headerbutton2 expand-button2"><a class="abutton" href="aboutus.html"><strong>WHO ARE WE?</strong></a></button>
+      <button class="headerbutton2 expand-button2"><a class="abutton" href="blog.html"><strong>BLOG POSTS</strong></a></button>
       <button class="headerbutton2 expand-button2"><a class="abutton" href="https://rss.com/podcasts/biocastpodcast/" target="_blank" rel="noopener noreferrer"><strong>LISTEN HERE</strong></a></button>
       <button class="headerbutton2 expand-button2"><a class="abutton" href="contactus.html"><strong>CONTACT US</strong></a></button>
     </div>
@@ -21,25 +21,31 @@
         <h2>CONTACT US</h2>
         <p>Have any juicy ideas? Questions/concerns? Just fill this form out, and we'll get back to you as soon as possible!</p>
         <p>If there's an error message, that means our bot isn't working :/ Sorry! We're still beginners at coding. Instead, feel free to email us at thebiocastpodcast@gmail.com, we'd be more than happy to hear from you! :)</p>
-        <form action="contact.php" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-
-          <button type="submit" class="button2 expand-button2">Submit</button>
-        </form>
-      </div>
+          <form action="https://formsubmit.co/thebiocastpodcast@gmail.com" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+  
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+  
+            <input type="hidden" name="_next" value="https://biocast.co/success.html" >
+  
+            <label for="firstName">First Name</label>
+            <input type="text" name="name" id="firstName" required>
+            <label for="lastName">Last Name</label>
+            <input type="text" name="Last&nbsp;Name" id="lastName" required>
+            <label for="emailInfo">E-mail</label>
+            <input type="email" name="email" id="emailInfo" required>
+            <label for="comments">Message:</label>
+            <textarea id="comments" name="Comments&nbsp;&&nbsp;Questions" rows="4" required></textarea>
+            <button type="submit" class="button2 expand-button2">Submit</button>
+          </form>
     </div>
   </main>
   <footer>
     <div class="footer">
     <p>&copy; 2023 BioCast</p>
-    <p>Powered by Google</p>
+    <p>Powered by VSCode and GitHub</p>
   </div>
 </footer>
 </body>
