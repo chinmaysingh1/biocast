@@ -200,6 +200,10 @@ body {
     margin-bottom: 50px;
   }
 
+  .member p {
+    letter-spacing: -1px;
+  }
+
   .blog-preview {
     max-width: 100%;
     margin: 20px;
