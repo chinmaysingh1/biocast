@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-html{
-  background-image: linear-gradient(to bottom, #023020, black);
+html, body {
+  background-image: linear-gradient(to bottom, #4B9CD3, #9966CC);
   background-repeat: no-repeat;
-  min-height: 100%;
+  background-size: cover;
 }
 
 body, header, footer {
@@ -208,6 +211,25 @@ img {
   max-width: 40%;
 }
 
+.about {
+  display: block;
+  text-align: center;
+  width: 80%;
+  padding: 3em;
+  background-color: #4B9CD3;
+  border-radius: 36px;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+  font-size: x-large;
+}
+
+.about h2 {
+  margin-bottom: 5%;
+}
+
 .team-members {
   display: flex;
   justify-content:space-around;
@@ -220,7 +242,7 @@ img {
   width: 30%;
   line-height: 2;
   padding: 3em;
-  background-color: #023020;
+  background-color: #4B9CD3;
   border-radius: 36px;
 }
 
@@ -246,7 +268,7 @@ img {
 }
 
 .blog-preview {
-  background-color: #023020;
+  background-color: #4B9CD3;
   max-width: 100%;
   margin: 20px;
   padding: 20px;
@@ -296,7 +318,7 @@ img {
   margin-left: 196px;
   margin-right: 196px;
   padding: 20px;
-  background-color: #023020;
+  background-color: #4B9CD3;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -305,7 +327,6 @@ img {
 
 .blog img {
   width: 10%;
-  border-radius: 16px;
 }
 
 .blog-post {
@@ -347,6 +368,17 @@ img {
   height: auto;
 }
 
+.quotes {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: large;
+}
+
+.quotes p {
+  text-align: center;
+}
+
 .sign-off {
   line-height: 1;
 }
@@ -363,7 +395,7 @@ img {
 }
 
 .form-container {
-  background-color: #023020;
+  background-color: #4B9CD3;
   padding: 20px;
   border-radius: 24px;
   margin-left: 10%;
@@ -486,15 +518,22 @@ button[type="submit"]:hover {
   --fill-color: #FFFDD0;
 }
 
-svg {
+#Layer_1 {
   display: block;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
 
-#Strand1, #Strand2, #Strand3, #leftRect, #rightRect, #text, #Nucl1, #Nucl2, #Nucl3, #Nucl4 {
-  fill: var(--strand-color);
+#svg-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#Layer_1_Mobile {
+  margin: 0 auto;
+  display: block;
 }
 
 #Nucl1, #Nucl2, #Nucl3, #Nucl4 {
