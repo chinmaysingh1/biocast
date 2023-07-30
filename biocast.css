@@ -5,6 +5,10 @@
   src: url(Lato-Bold.ttf);
 }
 
+html {
+  height: 100vh;
+}
+
 html, body {
   font-family: Lato-Bold;
   background-image: linear-gradient(to bottom, #4B9CD3, #9966CC);
