@@ -11,7 +11,7 @@ html {
 
 html, body {
   font-family: Lato-Bold;
-  background-image: linear-gradient(to bottom, #4B9CD3, #9966CC);
+  background-image: #000000;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -19,7 +19,7 @@ html, body {
 body, header, footer {
   margin: 0;
   padding: 0;
-  color:#FFFDD0;
+  color:#1ED760;
 }
 
 .header {
@@ -45,9 +45,9 @@ body, header, footer {
 .button2 {
   font-family: Lato;
   padding: 32px;
-  color: #FFFDD0;
+  color: #1ED760;
   border-radius: 36px;
-  border: 2px solid #FFFDD0;
+  border: 2px solid #1ED760;
   font-size: large;
   cursor: pointer;
 }
@@ -77,7 +77,7 @@ body, header, footer {
 .headerbutton2 {
   font-family: Lato-Bold;
   background-color: transparent;
-  color: #FFFDD0;
+  color: #1ED760;
   margin: 4%;
   font-size: large;
   border: none;
@@ -85,13 +85,13 @@ body, header, footer {
 }
 
 .abutton2 {
-  color: #FFFDD0;
+  color: #1ED760;
   text-decoration: none;
   position: relative;
 }
 
 .abutton {
-  color: #FFFDD0;
+  color: #1ED760;
   text-decoration: none;
   position: relative;
 }
@@ -103,7 +103,7 @@ body, header, footer {
   left: 0;
   width: 100%;
   height: 0.1em;
-  background: linear-gradient(#FFFDD0, #FFFDD0);
+  background: linear-gradient(#1ED760, #1ED760);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   transition: background-size 0.3s ease-in-out;
@@ -188,7 +188,7 @@ img {
 
 .text {
   font-size: 40px;
-  color: #FFFDD0;
+  color: #1ED760;
   justify-content: center;
   text-align: center;
   margin-top: 20px; /* Add some space between image and text */
@@ -196,7 +196,7 @@ img {
 
 .text2 {
   font-size: 20px;
-  color: #FFFDD0;
+  color: #1ED760;
   justify-content: center;
   text-align: center;
   max-width: 100%;
@@ -204,7 +204,7 @@ img {
 }
 
 .text3 {
-  color: #FFFDD0;
+  color: #1ED760;
   text-align: center;
   justify-content: center;
   font-size: 72px;
@@ -223,7 +223,7 @@ img {
   text-align: center;
   width: 80%;
   padding: 3em;
-  background-color: #4B9CD3;
+  background-color: #1ED760;
   border-radius: 36px;
   margin-top: 7%;
   margin-bottom: 5%;
@@ -241,7 +241,7 @@ img {
   display: flex;
   justify-content:space-around;
   padding: 20px;
-  color: #FFFDD0;
+  color: #191414;
 }
 
 .member {
@@ -249,12 +249,12 @@ img {
   width: 30%;
   line-height: 2;
   padding: 3em;
-  background-color: #4B9CD3;
+  background-color: #191414;
   border-radius: 36px;
 }
 
 #cream {
-  color: #FFFDD0;
+  color: #1ED760;
 }
 
 .member img {
@@ -275,7 +275,7 @@ img {
 }
 
 .blog-preview {
-  background-color: #4B9CD3;
+  background-color: #191414;
   max-width: 100%;
   margin: 20px;
   padding: 20px;
@@ -306,7 +306,7 @@ img {
 
 .blog-date {
   font-size: 14px;
-  color: #FFFDD0;
+  color: #1ED760;
   text-align: left;
   margin: 5px 0;
 }
@@ -316,7 +316,7 @@ img {
   line-height: 1.6;
   margin: 5px 0;
   text-align: left;
-  color: #FFFDD0;
+  color: #1ED760;
 }
 
 
@@ -325,7 +325,7 @@ img {
   margin-left: 196px;
   margin-right: 196px;
   padding: 20px;
-  background-color: #4B9CD3;
+  background-color: #191414;
   border-radius: 24px;
   display: flex;
   flex-direction: column;
@@ -337,7 +337,7 @@ img {
 }
 
 .blog-post {
-  color: #FFFDD0;
+  color: #1ED760;
   line-height: 2;
 }
 
@@ -391,7 +391,7 @@ img {
 }
 
 .links {
-  color: #FFFDD0;
+  color: #1ED760;
   text-decoration: underline;
 }
 
@@ -402,12 +402,12 @@ img {
 }
 
 .form-container {
-  background-color: #4B9CD3;
+  background-color: #191414;
   padding: 20px;
   border-radius: 24px;
   margin-left: 10%;
   margin-right: 10%;
-  color: #FFFDD0;
+  color: #1ED760;
 }
 
 .form-container img {
@@ -439,7 +439,7 @@ form {
 }
 
 label {
-  color: #FFFDD0;
+  color: #1ED760;
   margin-bottom: 5px;
 }
 
@@ -447,16 +447,16 @@ input,
 textarea {
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #FFFDD0;
+  border: 1px solid #1ED760;
   border-radius: 5px;
   background-color: #000;
-  color: #FFFDD0;
+  color: #1ED760;
 }
 
 button[type="submit"] {
   padding: 15px;
   background-color: black;
-  color: #FFFDD0;
+  color: #1ED760;
   font-size: large;
   border: 2px solid white;
   border-radius: 36px;
@@ -466,7 +466,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   transform: scale(1.05);
-  background-color: #FFFDD0;
+  background-color: #1ED760;
   color: black;
 }
 
@@ -475,7 +475,7 @@ button[type="submit"]:hover {
   }
 
 .success {
-  color: #FFFDD0;
+  color: #1ED760;
   text-align: left;
   margin-bottom: 20%;
   margin-left: 10%;
@@ -522,7 +522,7 @@ button[type="submit"]:hover {
 
 :root {
   --strand-color: transparent;
-  --fill-color: #FFFDD0;
+  --fill-color: #1ED760;
 }
 
 #Layer_1 {
