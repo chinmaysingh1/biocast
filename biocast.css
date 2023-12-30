@@ -26,7 +26,6 @@ body, header, footer {
   padding: 50px;
 }
 
-
 .footer {
   position:static;
   width: 100%;
@@ -223,7 +222,8 @@ img {
   text-align: center;
   width: 80%;
   padding: 3em;
-  background-color: #1ED760;
+  background-color: #191414;
+  color: #1ED760;
   border-radius: 36px;
   margin-top: 7%;
   margin-bottom: 5%;
@@ -465,7 +465,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   background-color: #1ED760;
   color: black;
 }
@@ -525,13 +525,6 @@ button[type="submit"]:hover {
   --fill-color: #1ED760;
 }
 
-#Layer_1 {
-  display: block;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #svg-container {
   display: flex;
   align-items: center;
@@ -543,35 +536,41 @@ button[type="submit"]:hover {
   display: block;
 }
 
-#Nucl1, #Nucl2, #Nucl3, #Nucl4 {
+#AboutUsNucleotide, #ListenHereNucleotide, #BlogNucleotide, #TikTokNucleotide, #InstagramNucleotide, #ContactUsNucleotide {
   animation: fadeIn 500ms ease forwards;
-
 }
 
 #Strand1 {
-  stroke-dasharray: 1940;
-  stroke-dashoffset: 1940;
-  animation: sign 2s ease, fillAnimation 3s ease forwards;
+  stroke-dasharray: 1187;
+  stroke-dashoffset: 1187;
+  animation: fadeIn 500ms ease forwards, sign 1s ease, fillAnimation 1s ease forwards;
   animation-fill-mode: forwards;
 }
 
-#Strand2, #Strand3 {
-  stroke-dasharray: 812;
-  stroke-dashoffset: 812;
-  animation: sign 1s ease, fillAnimation 3s ease forwards;
+#Strand2 {
+  stroke-dasharray: 651;
+  stroke-dashoffset: 651;
+  animation: fadeIn 500ms ease forwards, sign 1s ease, fillAnimation 1s ease forwards;
   animation-fill-mode: forwards;
 }
 
-#leftRect, #rightRect {
-  stroke-dasharray: 1216;
-  stroke-dashoffset: 1216;
-  animation: sign 2s ease, fillAnimation 3s ease forwards;
+#Strand3 {
+  stroke-dasharray: 609;
+  stroke-dashoffset: 609;
+  animation: fadeIn 500ms ease forwards, sign 1s ease, fillAnimation 1s ease forwards;
   animation-fill-mode: forwards;
 }
 
-#text {
-  stroke-dasharray: 455;
-  stroke-dashoffset: 455;
-  animation: sign 2s ease, fillAnimation 5s ease forwards;
+#BIOCAST {
+  stroke-dasharray: 1644;
+  stroke-dashoffset: 1644;
+  animation: fadeIn 500ms ease forwards, sign 1s ease, fillAnimation 1s ease forwards;
+  animation-fill-mode: forwards;
+}
+
+#MicStand {
+  stroke-dasharray: 2045;
+  stroke-dashoffset: 2045;
+  animation: fadeIn 500ms ease forwards, sign 1s ease, fillAnimation 1s ease forwards;
   animation-fill-mode: forwards;
 }
