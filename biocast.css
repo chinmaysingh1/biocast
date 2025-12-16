@@ -229,6 +229,7 @@ main {
 .episodes-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  margin-top: 50px;
   gap: 25px;
 }
 
