@@ -14,7 +14,14 @@
       <a href="index.html" class="logo">
         <img src="Images/BioCastDNASpotifyGreen.png" alt="BioCast Logo">
       </a>
-      <nav class="nav-links">
+      
+      <div class="hamburger" id="hamburger-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="nav-links" id="nav-links">
         <a href="aboutus.html">About Us</a>
         <a href="https://blog.biocast.co">News</a>
         <a href="listenhere.html">Listen Here</a>
@@ -55,5 +62,17 @@
   <footer>
     <p>BioCast — Singh & Shirolkar</p>
   </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger-btn');
+    const navLinks = document.getElementById('nav-links');
+
+    if(hamburger) {
+      hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        hamburger.classList.toggle('toggle');
+      });
+    }
+  </script>
 </body>
 </html>
